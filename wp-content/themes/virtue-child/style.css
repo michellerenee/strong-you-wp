@@ -12,8 +12,9 @@
  Text Domain:  virtue-child
 */
 
+/* Kontaktoplysniger i footer */
 .vcard-company{
-  color: #73bf41;
+  color: #ff8c3e;
   font-size: 24px;
 }
 
@@ -47,15 +48,76 @@
   margin-left: calc(50% - 60px);
 }
 
-
 .footercredits{
   text-align: center;
 }
 
+/* Grøn top menu */
 .kad-topbar-left .topbarmenu ul li {
   font-family: Lato, sans-serif;
 }
 
+/* Billedebanner i header */
 .virtue_banner{
   margin-top: 5px;
+}
+
+.page .container .banner .container .virtue_banner img, .blog .container .banner .container .virtue_banner img{
+  display: none;
+}
+
+.home .container .banner .container .virtue_banner img{
+  display: block;
+}
+
+/* Kontaktform */
+#commentform textarea{
+  border: 2px solid #ff8c3e;
+  box-shadow: 2px 2px 15px #b4b4b4;
+  resize: none;
+}
+
+.contactform input.full, .wpcf7 input, .contactform textarea, .wpcf7 textarea{
+  border: 2px solid #73bf41;
+  box-shadow: 2px 2px 15px #b4b4b4;
+}
+
+input[type=submit]{
+  background-color: #ff8c3e;
+  box-shadow: 2px 2px 15px #b4b4b4;
+}
+
+.swpm-login-widget-form input, .swpm-login-widget-form checkbox{
+  border: 2px solid #73bf41;
+  box-shadow: 2px 2px 15px #b4b4b4;
+  padding: 10px;
+}
+
+.swpm-login-widget-form input[type=submit]{
+  border: none;
+  margin-top: 20px;
+  color: white;
+}
+
+.swpm-login-widget-form input[type=checkbox]{
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+}
+
+/* Aktive menupunkt */
+.current-menu-item a{
+  color: #ff8c3e;
+}
+
+/* Menu i mobilvisning */
+.nav-trigger-case{
+  background-color: #f1f1f1;
+}
+
+/* Collapse-boxe til FAQ siden */
+.collapseomatic{
+  font-size: 18px;
+  font-weight: bold;
 }
