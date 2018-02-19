@@ -37,14 +37,15 @@
 
 #containerfooter .container .row .footercol2 img{
   margin: auto;
-  margin-top: 70px;
+  margin-top: 50px;
+  max-width: 50%;
 }
 
 #containerfooter .container .row .footercol3{
   text-align: center;
 }
 
-#containerfooter .container .row .footercol3 a:not(:last-child){
+#containerfooter .container .row .footercol3 a:first-child{
   margin-left: calc(50% - 60px);
 }
 
@@ -111,6 +112,10 @@ input[type=submit]{
   color: #ff8c3e;
 }
 
+#menu-main-menu li a{
+  text-transform: uppercase;
+}
+
 /* Menu i mobilvisning */
 .nav-trigger-case{
   background-color: #f1f1f1;
@@ -120,4 +125,8 @@ input[type=submit]{
 .collapseomatic{
   font-size: 18px;
   font-weight: bold;
+}
+
+#containerfooter .virtue_social_widget .facebook_link:hover, .virtue_social_widget .facebook_link:hover, #containerfooter .virtue_social_widget .instagram_link:hover, .virtue_social_widget .instagram_link:hover{
+  background: #73bf41;
 }
