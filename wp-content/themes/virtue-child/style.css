@@ -37,14 +37,15 @@
 
 #containerfooter .container .row .footercol2 img{
   margin: auto;
-  margin-top: 70px;
+  margin-top: 50px;
+  max-width: 50%;
 }
 
 #containerfooter .container .row .footercol3{
   text-align: center;
 }
 
-#containerfooter .container .row .footercol3 a:not(:last-child){
+#containerfooter .container .row .footercol3 a:first-child{
   margin-left: calc(50% - 60px);
 }
 
@@ -52,9 +53,13 @@
   text-align: center;
 }
 
-/* Grøn top menu */
+/* top menu */
 .kad-topbar-left .topbarmenu ul li {
   font-family: Lato, sans-serif;
+}
+
+div#topbar.topclass{
+  background-color: #adadad;
 }
 
 /* Billedebanner i header */
@@ -78,7 +83,7 @@
 }
 
 .contactform input.full, .wpcf7 input, .contactform textarea, .wpcf7 textarea{
-  border: 2px solid #73bf41;
+  border: 1px solid #ff8c3e;
   box-shadow: 2px 2px 15px #b4b4b4;
 }
 
@@ -88,7 +93,7 @@ input[type=submit]{
 }
 
 .swpm-login-widget-form input, .swpm-login-widget-form checkbox{
-  border: 2px solid #73bf41;
+  border: 1px solid #ff8c3e;
   box-shadow: 2px 2px 15px #b4b4b4;
   padding: 10px;
 }
@@ -111,6 +116,10 @@ input[type=submit]{
   color: #ff8c3e;
 }
 
+#menu-main-menu li a{
+  text-transform: uppercase;
+}
+
 /* Menu i mobilvisning */
 .nav-trigger-case{
   background-color: #f1f1f1;
@@ -120,4 +129,8 @@ input[type=submit]{
 .collapseomatic{
   font-size: 18px;
   font-weight: bold;
+}
+
+#containerfooter .virtue_social_widget .facebook_link:hover, .virtue_social_widget .facebook_link:hover, #containerfooter .virtue_social_widget .instagram_link:hover, .virtue_social_widget .instagram_link:hover{
+  background: #73bf41;
 }
