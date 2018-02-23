@@ -26,7 +26,7 @@ define('DB_NAME', 'michellerenee_dk_db');
 define('DB_USER', 'michellerenee_dk');
 
 /** MySQL database password */
-define('DB_PASSWORD', '***REMOVED***');
+define('DB_PASSWORD', 'eygtkwcf');
 
 /** MySQL hostname */
 define('DB_HOST', 'mysql71.unoeuro.com');
